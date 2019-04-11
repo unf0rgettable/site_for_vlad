@@ -154,6 +154,8 @@ to{
 .container {
     background:gray;
 
+    width:100%;
+
     border-radius:5px;
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
@@ -230,7 +232,7 @@ footer
     color: white;
     width: 100%;
     margin-top: 5%;
-    padding: 1% 10% 1%;
+    padding: 1% 10% %;
     background: #24292e;;
 }
 footer>a
