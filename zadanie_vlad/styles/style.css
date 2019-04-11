@@ -1,4 +1,9 @@
+body 
+{
+    margin: 0;
+}
 #lower-menu {
+    background: #24292e;
     height: 40px;
     z-index: 1001;
     padding: 0px;
@@ -18,17 +23,19 @@ ul {
 }
 
 #lower-menu a {
+    color: white;
 	outline: none;
   /*display: block;*/
 	text-decoration: none;
 }
 
 #lower-menu > li {
+
 	color: white;
     line-height: 40px;
 	float: left;
 	display: inline-block;
-	width: 33%;
+	width: 15%;
 	/*margin: 0.3em 0;*/
 	white-space: nowrap;
 	/*background-color: red;*/
@@ -38,11 +45,12 @@ ul {
 
 #lower-menu li:hover{
 	height: 100%;
-    background: gray;
+    background: #24292e;
 }
 
 #lower-menu ul{
-	background: white;
+
+	background: black;
 	/*list-style:none;*/
 	position: absolute;
 	z-index: 1001;
@@ -204,5 +212,14 @@ to{
     transition-property:width, height, top, bottom, left, right, z-index, border;
     transition-duration:0.5s;
 }
-
+.content 
+{
+    border-radius: 10px;
+    background: #f6f8fa;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5%;
+}
 
