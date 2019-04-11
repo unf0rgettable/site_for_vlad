@@ -6,7 +6,7 @@ body
 }
 #lower-menu {
     background: #24292e;
-    height: 30px;
+    height: 5%;
     z-index: 1001;
     padding: 0px;
 	margin: 0;
@@ -37,7 +37,7 @@ ul {
     line-height: 30px;
 	float: left;
 	display: inline-block;
-	width: 15%;
+	width: 25%;
     max-width: 30vw;
 	/*margin: 0.3em 0;*/
 	white-space: nowrap;
