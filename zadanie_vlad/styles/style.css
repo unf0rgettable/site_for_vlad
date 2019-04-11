@@ -154,8 +154,9 @@ to{
 .container {
     background:gray;
 
-    width:100%;
-
+    width:80%;
+    margin-left: 10vw;
+    margin-right: 10vw;
     border-radius:5px;
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
