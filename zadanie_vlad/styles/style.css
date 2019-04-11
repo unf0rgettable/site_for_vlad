@@ -254,11 +254,27 @@ footer>a
 }
 
 #danger{
-    width: 100%;
+    transition: 2s;
+    width: 70%;
     height: 20px;
     background-image: repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для Google*/
     background-image: -webkit-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для webkit-браузеров */
     background-image: -moz-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для firefox 3.6+ */
     background: -o-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для Opera 11.10+ */
     background: -ms-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для IE10+ */
+}
+
+#danger:hover{
+    -webkit-transform: scale(1.42);
+    -ms-transform: scale(1.42);
+    transform: scale(1.42);
+}
+
+#aes3:hover{
+    transition: 2s;
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
 }
