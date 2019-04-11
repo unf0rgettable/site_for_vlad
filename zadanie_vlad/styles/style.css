@@ -252,3 +252,13 @@ footer>a
     background: -o-linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для Opera 11.10+ */
     background: -ms-linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для IE10+ */
 }
+
+#danger{
+    width: 100%;
+    height: 20px;
+    background-image: repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для Google*/
+    background-image: -webkit-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для webkit-браузеров */
+    background-image: -moz-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для firefox 3.6+ */
+    background: -o-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для Opera 11.10+ */
+    background: -ms-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для IE10+ */
+}
