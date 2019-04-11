@@ -237,6 +237,26 @@ to{
     padding: 10px;
     font-size: 2em;
 }
+.date
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1% 0 1%;
+    padding-top: 1%;
+    padding-bottom: 0;
+    padding-left: 2%;
+    max-width: 35%;
+    min-width: 10%;
+    color: black;
+    min-height: 5vh;
+    border-top: 5px solid #e34c26;
+    /*border-bottom: 5px solid #e34c26;   */ 
+    border-left: 5px solid #e34c26;
+}
+.content p
+{
+    padding-left: 2%;
+}
 
 footer 
 {
@@ -278,6 +298,7 @@ footer>a
     display: inline-block;
     width: 50px;
     height: 33px;
+
     background: linear-gradient(to top, red 0, red 33%, blue 33%, blue 66%,white 67%, white 100%);
     background: -webkit-linear-gradient(to top, red 0, red 33%, blue 33%, blue 66%,white 67%, white 100%);
     background: -moz-linear-gradient(to top, red 0, red 33%, blue 33%, blue 66%,white 67%, white 100%);
@@ -290,6 +311,7 @@ footer>a
     transition: 2s;
     width: 70%;
     height: 20px;
+
     background-image: repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для Google*/
     background-image: -webkit-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для webkit-браузеров */
     background-image: -moz-repeating-linear-gradient(-45deg,orange,orange 20px,black 20px,black 40px); /* для firefox 3.6+ */
