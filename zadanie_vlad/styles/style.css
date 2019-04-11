@@ -1,5 +1,6 @@
 body 
 {
+    background: #f7f7f7;
     margin: 0;
     font-family: 'Open Sans Bold', arial;
 }
@@ -225,6 +226,17 @@ to{
     margin-top: 2%;
     margin-bottom: 0;
     padding: 3%;
+}
+.h2
+{
+    max-width: 35%;
+    min-width: 10%;
+    color: white;
+    background: #5cb85c;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    font-size: 2em;
 }
 
 footer 
