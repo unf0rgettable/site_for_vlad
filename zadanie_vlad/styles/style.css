@@ -310,3 +310,20 @@ footer>a
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
 }
+
+#ogon{
+    z-index: 100;
+    position: absolute;
+    top: inherit;
+    opacity: 0;
+    transition: 3s;
+}
+
+#ogon:hover{
+    transform: translateY(-200px);
+    opacity: 0.99;
+}
+
+#truba{
+    
+}
