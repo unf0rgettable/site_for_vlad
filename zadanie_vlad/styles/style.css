@@ -1,6 +1,7 @@
 body 
 {
     margin: 0;
+    font-family: 'Open Sans Bold', arial;
 }
 #lower-menu {
     background: #24292e;
@@ -221,8 +222,21 @@ to{
     background: #f6f8fa;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 0;
-    padding: 5%;
+    padding: 3%;
 }
 
+footer 
+{
+    color: white;
+    width: 100%;
+    margin-top: 5%;
+    padding: 1% 10% 1%;
+    background: #24292e;;
+}
+footer>a
+{
+    text-decoration: none;
+    color: white;
+}
