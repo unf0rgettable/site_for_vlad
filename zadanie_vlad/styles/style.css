@@ -254,14 +254,22 @@ footer>a
 }
 
 #Ukraine{
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 4vw;
+    height: 3vw;
+
     display: inline-block;
     width: 50px;
     height: 33px;
+
     background: linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для Google*/
     background: -webkit-linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для webkit-браузеров */
     background: -moz-linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для firefox 3.6+ */ 
     background: -o-linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для Opera 11.10+ */
     background: -ms-linear-gradient(to top, yellow 0, yellow 50%, blue 50%, blue 100%); /* для IE10+ */
+
 }
 
 #russia{
